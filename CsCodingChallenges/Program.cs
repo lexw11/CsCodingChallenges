@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿Console.WriteLine("Hello There!");
+
+Console.Write("What is your first name? ");
+string? firstName = Console.ReadLine();
+
+Console.WriteLine($"Welcome to my application, {firstName}!");
